@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 14px raleway, sans-serif;
+}
+body{
+    background-color: rgb(78, 78, 78);
+}
+header{
+    padding: 20px 70px;
+    background: black;
+}
+.navehation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navehation .logo{
+    width: 50px;
+}
+.navehation ul{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.navehation ul li a{
+    color: dimgray;
+    font-weight: 600;
+    padding-bottom: 7px;
+    transition: all 0.5s ease-in-out;
+}
+.navehation ul li a:hover{
+     color: #fff;
+     border-bottom: 3px solid #fff;
+}
+.navehation .check{
+    color: #fff;
+     border-bottom: 3px solid #fff;
+}
+
+
+/*main*/
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+.iipone{
+    width: 100%;
+}
+.main-text{
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+.main-text h3 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+.main-text p{
+    margin-bottom: 1.5rem;
+}
+.main-text h6{
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.main-text .btn{
+    padding: 10px 25px;
+    background: #0071e1;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.main-text.btn:hover{
+    opacity: .8%;
+}
+.main-text .text h5{
+    font-size: 1rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.main-text .content{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main-text .content span{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+.main-text .content span:hover{
+    opacity: .80;
+}
+#green{
+    background: #384937;
+}
+#pink{
+    background:#f8ddd6
+}
+#blue{
+    background:#0071e1
+}
+#black{
+    background: #192028;
+}
+#white{
+    background: #ffff;
+}
+#red{
+    background: #ae0617;
+}
+.main-img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+.main-img img{
+    width: 500px;
+    transform: rotate(-20deg);
+}
